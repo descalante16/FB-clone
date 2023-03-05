@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Josefin+Sans:ital,wght@0,700;1,700&family=Montserrat:wght@700&family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700&family=Tenor+Sans&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 20px;
@@ -33,11 +34,11 @@ header{
     height: 60px;
     display: flex;
     align-items: center;
-    
+
     justify-content: space-between;
     border-bottom: 1px solid #cccccc;
     background: #fff;
-    gap: 100px;
+    gap: 150px;
     z-index: 1000;
 }
 
@@ -50,6 +51,7 @@ header{
     justify-content: center;
     margin-left: 10px;
     flex-grow: 2;
+    font-weight: bold;
 }
 
 header .search-bar{
@@ -114,8 +116,6 @@ header .right-nav img{
     border-radius: 50%;
     margin-left: 8px;
     cursor: pointer;
-
-
  }
 
 
@@ -125,6 +125,102 @@ header .right-nav img{
 
 .main{
     display: flex;
-    margin-top: 60px;
     background: #f5f5f5;
 }
+.main .left{
+    width: 23%;
+    height: 92vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #f5f5f5;
+    padding: 20px 6px 5px 10px;
+    position: fixed;
+}
+
+.main .left::-webkit-scrollbar{
+    width: 7px;
+
+}
+.main .left::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: #f5f5f5;
+}
+
+.main .left:hover::-webkit-scrollbar-thumb{
+    background: #cccccc;
+}
+
+.main .left .img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: var(--small-font-size);
+
+}
+
+.main .left .img:hover{
+    background: #e3e3e3;
+    border-radius: 12px;
+    width: 100%;
+
+}
+
+.main .left .icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: var(--small-font-size);
+
+}
+
+.main .left .icon:hover{
+    background: #e3e3e3;
+    border-radius: 12px;
+    width: 100%;
+
+}
+
+.main .left .img img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 8px 15px 10px 10px;
+}
+
+.main .left .icon img{
+    width: 20px;
+    height: 20px;
+    object-position: center;
+    margin: 8px 20px 8px 12px;
+}
+
+.main .left .icon i{
+    padding-right: 10px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    object-position: center;
+    margin: 8px 20px 10px 10px;
+    
+}
+
+.main .left hr{
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: #cccccc;
+    margin: 10px 0 ;
+}
+
+.main .center{
+    width: 50%;
+    height: auto;
+    padding: 20px 20px 0 20px;
+    background: #f5f5f5;
+    margin-left: 25%;
+}
+
