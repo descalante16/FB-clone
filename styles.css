@@ -456,7 +456,7 @@ nav .icons{
 }
 
 /* --------------- posts box --------------- */
-
+/* Desktop */
 .main .center .my_post{
     width: 100%;
     height: auto;
@@ -494,6 +494,68 @@ nav .icons{
 }
 
 .main .center .my_post .post_top input:hover{
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+/* ----- mobile------ */
+
+.main .center .mobile_post{
+    width: 102%;
+    height: 70px;
+    background: #fff;
+    padding: 10px 15px;
+    margin-top: 61px;
+    box-shadow: 0 1px 8px rgba(0 0 0 / 0.2);
+}
+
+.main .center .mobile_post img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+}
+
+.main .center .mobile_post i{
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    color: #178b23;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0;
+  
+
+    align-items: center;
+}
+
+.main .center .mobile_post .post_top{
+    display: flex;
+    align-items: center;
+
+}
+
+.main .center .mobile_post .post_top{
+    display: flex;
+    align-items: center;
+
+}
+.main .center .mobile_post .post_top input{
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0;
+    outline: none;
+    background: #efefef;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.main .center .mobile_post .post_top input:hover{
     background: #e3e3e3;
     cursor: pointer;
 }
@@ -554,6 +616,13 @@ nav .icons{
     border-radius: 7px;
     box-shadow: 0 1px 8px rgba(0 0 0 / 0.1);
 
+}
+
+.main .center .friends_post .friend_post_top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .main .center .friends_post .friends_post_top{
     display: flex;

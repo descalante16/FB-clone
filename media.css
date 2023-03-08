@@ -1,13 +1,18 @@
 /* Extra small devices (phones, 320px and down) */
 @media only screen and (max-width: 320px) {
-    
+    body{
+        width: 100%;
+        height: auto;
+    }
     .container{
         display: flex;
         flex-direction: column;
     }
     .main .center {
-        margin-top: 50%;
+        margin-top: auto;
     }
+
+   
 
     .main .center .top_box .buttons{
         display: none;
@@ -80,7 +85,7 @@
         border-bottom: 1px solid #cccccc;
         justify-content: space-between;
         
-        height: 65px;
+        height: 70px;
         padding: 10px 10px 0 20px;
         align-items: center;
         
@@ -95,8 +100,8 @@
     }
 
     nav .icons ul img{
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
     }
 
     nav .icons ul i{
@@ -120,6 +125,33 @@
  
 
     }
+
+    .main .center .my_post{
+        display: none;
+    }
+
+    .main .center .top_box .cards{
+        width: 50%;
+    height: 260px;
+    display: grid;
+    column-gap:3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .main .center .friends_post .comment_wrapper{
+
+        display: none;
+    
+    }
+
+    .main .center .friends_post{
+       
+        width: 100%;
+        height: auto;
+        
+    
+    }
+    
 
 }
 
