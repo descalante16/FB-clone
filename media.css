@@ -281,6 +281,23 @@
  
 
     }
+    .main .center .my_post{
+        display: none;
+    }
+
+    .main .center .top_box .cards{
+        width: 50%;
+    height: 260px;
+    display: grid;
+    column-gap:3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .main .center .friends_post .comment_wrapper{
+
+        display: none;
+    
+    }
 
 }
 
@@ -408,6 +425,29 @@
 
     }
 
+    .main .center .my_post{
+        display: none;
+    }
+
+    .main .center .mobile_post{
+        margin-top: 0%;
+    }
+
+
+    .main .center .top_box .cards{
+        width: 50%;
+    height: 260px;
+    display: grid;
+    column-gap:3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .main .center .friends_post .comment_wrapper{
+
+        display: none;
+    
+    }
+
    
 
 }
@@ -419,7 +459,7 @@
         flex-direction: column;
     }
     .main .center {
-        margin-top: 5%;
+
     }
 
     .main .center .top_box .buttons{
@@ -543,10 +583,31 @@
 
     }
 
+    .main .center .my_post{
+        display: none;
+    }
+
+    .main .center .top_box .cards{
+        width: 50%;
+    height: 260px;
+    display: grid;
+    column-gap:3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .main .center .friends_post .comment_wrapper{
+
+        display: none;
+    
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .main .center .mobile_post{
+        display: none;
+    }
 
     .main .center .top_box .buttons{
         display: flex;
